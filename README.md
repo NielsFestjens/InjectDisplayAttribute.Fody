@@ -15,8 +15,8 @@ Then reference and configure it like this:
 
 	[assembly: InjectDisplayAttribute(TypeMatchPattern = "^InjectDisplayAttribute.ExampleTarget.*$", ResourceType = typeof(Resources))]
 
-TypeMatchPattern is a regex pattern, all classes with FullName matching the regex will be processed.
-Nested classes will be processed.
-ResourceType is the type of the resource file to use.
-Properties that already have the Display attribute defined will not be changed.
-If the resource file does not contain an item with the name of the property, no Display attribute will be defined.
+- TypeMatchPattern is a regex pattern, all classes with FullName matching the regex will be processed.
+- Nested classes will be processed.
+- ResourceType is the type of the resource file to use.
+- Properties that already have the Display attribute defined will not be changed.
+- If the resource file does not contain an item with the name of the property, no Display attribute will be defined.
