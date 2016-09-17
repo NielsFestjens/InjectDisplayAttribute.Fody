@@ -8,9 +8,8 @@
     <owners>Niels Festjens</owners>
     <developmentDependency>true</developmentDependency>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-    <projectUrl>http://github.com/Fody/BasicFodyAddin</projectUrl>
+    <projectUrl>http://github.com/NielsFestjens/InjectDisplayAttribute.Fody</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Fody/BasicFodyAddin/master/Icons/package_icon.png</iconUrl>
     <description>A Fody add-in to inject the MVC Display Attribute.</description>
     <summary />
     <language>en-AU</language>
